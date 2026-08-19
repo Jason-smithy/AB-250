@@ -12,22 +12,17 @@
 2. [How to Prepare](#-how-to-prepare)
 3. [Exam Blueprint & Skills Measured](#-exam-blueprint--skills-measured)
 4. [In-Depth Complex Topics Breakdown](#-in-depth-complex-topics-breakdown)
-   - [1. Deploying Dynamics 365 Contact Center & Enterprise Architecture](#1-deploying-dynamics-365-contact-center--enterprise-architecture)
-   - [2. Omnichannel Communication & Voice Infrastructure](#2-omnichannel-communication--voice-infrastructure)
-   - [3. Autonomous Agents, Copilot Studio & Generative AI](#3-autonomous-agents-copilot-studio--generative-ai)
-   - [4. Unified Routing, Workstreams & AI-Enabled Routing](#4-unified-routing-workstreams--ai-enabled-routing)
-   - [5. Representative Productivity, Workspace & Extensibility](#5-representative-productivity-workspace--extensibility)
-   - [6. Supervisor Experience, Quality Evaluation & Telemetry Analytics](#6-supervisor-experience-quality-evaluation--telemetry-analytics)
-5. [Detailed Topic Documentation Index](#-detailed-topic-documentation-index)
-6. [Official Microsoft Learning Resources](#-official-microsoft-learning-resources)
+5. [Practice & Preparation Materials](#-practice--preparation-materials)
+6. [10 Exam Demo Practice Questions & Answers](#-10-exam-demo-practice-questions--answers)
+7. [Community Discussion & Study Group](#-community-discussion--study-group)
+8. [Detailed Topic Documentation Index](#-detailed-topic-documentation-index)
+9. [Official Microsoft Learning Resources](#-official-microsoft-learning-resources)
 
 ---
 
 ## 🎯 Exam Overview
 
-The **Exam AB-250: Transforming Contact Center Experiences with AI in Dynamics 365** validates expertise in designing, implementing, configuring, and optimizing AI-powered contact center solutions within **Microsoft Dynamics 365 Contact Center**. 
-
-This credential establishes proficiency in modernizing customer support environments by blending human representatives with autonomous AI agents, multi-channel engagement, and generative artificial intelligence.
+The **Exam AB-250: Transforming Contact Center Experiences with AI in Dynamics 365** validates expertise in designing, implementing, configuring, and optimizing AI-powered contact center solutions within **Microsoft Dynamics 365 Contact Center**.
 
 ### Quick Facts & Details
 | Attribute | Specification |
@@ -38,41 +33,27 @@ This credential establishes proficiency in modernizing customer support environm
 | **Exam Level** | Associate (Intermediate / Advanced Engineering) |
 | **Status** | Beta Exam |
 | **Passing Score** | 700 / 1000 (Scaled Score) |
-| **Question Types** | Multiple Choice, Case Studies, Drag-and-Drop, Sequence Ordering, Scenario-Based Analysis |
 | **Target Role** | Contact Center Engineers, Solution Architects, AI Engineers, CCaaS Implementation Consultants |
-| **Technology Stack** | Dynamics 365 Contact Center, Microsoft Copilot Studio, Azure Communication Services, Azure AI, Power Platform, Power BI, Microsoft Teams, Microsoft Foundry |
-
-### Target Audience Profile
-Candidates for this exam are contact center engineers or solutions professionals who design, implement, and support AI-powered contact center solutions by using Microsoft Dynamics 365 Contact Center and service-oriented autonomous agents. Candidates should possess practical experience with:
-- Translating business and customer service requirements into scalable, compliant, secure contact center solutions.
-- Configuring unified routing, omnichannel communication (voice, chat, digital, and social), and capacity models.
-- Building, extending, and orchestrating generative AI agents using Microsoft Copilot Studio.
-- Customizing representative workspaces, application profiles, productivity scripts, and JavaScript APIs.
-- Designing enterprise reporting, supervisor dashboards, Power BI data models, and Azure Application Insights telemetry.
 
 ---
 
 ## 🚀 How to Prepare
 
-Follow these structured official preparation steps to ensure readiness for Exam AB-250:
-
 - 🔗 **Review the Exam AB-250 (beta) page for exam registration and other details:**  
-  Visit the [Official Microsoft Exam AB-250 Registration & Certification Details Page](https://learn.microsoft.com/en-us/credentials/certifications/d365-contact-center-ai-engineer-associate/) to review exam policies, scheduling options via Pearson VUE, system requirements, and language availability.
+  Visit the [Microsoft Exam AB-250 Registration & Certification Details Page](https://learn.microsoft.com/en-us/credentials/certifications/d365-contact-center-ai-engineer-associate/) to review exam policies and scheduling via Pearson VUE.
   
 - 📚 **The Exam AB-250 study guide explores key topics covered in the exam:**  
-  Consult the [Official Microsoft Exam AB-250 Study Guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-250) for a line-by-line itemization of every skill, objective, and update measured on the test.
+  Consult the [Official Microsoft Exam AB-250 Study Guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-250) for an itemization of all measured objectives.
 
 - 👥 **Connect with Microsoft Training Services Partners in your area for in-person offerings:**  
-  Accelerate your learning through instructor-led, hands-on enterprise workshops delivered by accredited Microsoft partners worldwide. Find authorized partners at the [Microsoft Training Services Partner Directory](https://learn.microsoft.com/en-us/credentials/support/help#training-services-partners).
+  Find authorized partners at the [Microsoft Training Services Partner Directory](https://learn.microsoft.com/en-us/credentials/support/help#training-services-partners).
 
 - 💡 **Need other preparation ideas? Check out Just How Does One Prepare for Beta Exams?:**  
-  Beta exams have unique scoring timelines and lack third-party study guides. Review the official Microsoft guide: [Just How Does One Prepare for Beta Exams? (Microsoft Community Hub)](https://techcommunity.microsoft.com/blog/skills-hub-blog/just-how-does-one-prepare-for-beta-exams/1469421) and [About Beta Certification Exams](https://learn.microsoft.com/en-us/credentials/support/about-beta-exams).
+  Read official tips: [Just How Does One Prepare for Beta Exams? (Microsoft Community Hub)](https://techcommunity.microsoft.com/blog/skills-hub-blog/just-how-does-one-prepare-for-beta-exams/1469421) and [About Beta Certification Exams](https://learn.microsoft.com/en-us/credentials/support/about-beta-exams).
 
 ---
 
 ## 📊 Exam Blueprint & Skills Measured
-
-The exam syllabus is organized into six core functional domains:
 
 ```mermaid
 pie title Exam AB-250 Domain Weightings
@@ -95,108 +76,134 @@ pie title Exam AB-250 Domain Weightings
 
 ---
 
-## 🔬 In-Depth Complex Topics Breakdown
+## 💡 Practice & Preparation Materials
 
-### 1. Deploying Dynamics 365 Contact Center & Enterprise Architecture
-Deploying Dynamics 365 Contact Center requires selecting between deployment topologies and configuring tenant-wide infrastructure:
-- **Deployment Topologies**:
-  - *Standalone CCaaS*: Full omnichannel cloud contact center natively hosted on Dynamics 365 and Azure Communication Services.
-  - *Embedded Mode*: Integrating Dynamics 365 Contact Center capabilities directly into third-party CRM systems (such as Salesforce, ServiceNow, or custom web portals).
-  - *Copilot for 3rd-Party CCaaS*: Supercharging existing legacy telephony (e.g., Genesys, Cisco, Avaya) with Microsoft Generative AI Copilot and agent assist.
-- **Security & Personas**:
-  - Role-Based Access Control (RBAC): D365 Administrator, Omnichannel Administrator, Omnichannel Supervisor, Omnichannel Representative.
-  - Personas and User Settings: Mapping specialized profiles to operational tiers.
-  - Capacity Profiles: Defining units of work (e.g., Voice = 100 units, Chat = 30 units from a total representative capacity of 100).
-- **Application Lifecycle Management (ALM)**:
-  - Solution packaging of workstreams, queues, automated messages, and Copilot Studio bots across Dev, Test, and Production environments using Power Platform CLI and Azure DevOps pipelines.
-  - Health Agent and Journey Simulation: Pre-flight testing customer journeys before production go-live.
+For additional high-yield practice questions, scenario walk-throughs, and mock testing simulations to assess your exam readiness, review the comprehensive practice materials available for [AB-250](https://www.certsclub.com/microsoft/).
 
-### 2. Omnichannel Communication & Voice Infrastructure
-Channel configuration is the largest exam domain (30–35%):
-- **Voice Channel Architecture**:
-  - Provisioning phone numbers (Toll-Free, Geographic) via Azure Communication Services or Bring Your Own Carrier (BYOC) Direct Routing / SBC.
-  - Inbound and Outbound calling profiles, emergency calling configurations, operating hours, and voice workstream bindings.
-  - Non-Microsoft IVR Integration: Utilizing the CCaaS SDK API to bridge external telephony systems with unified routing.
-  - Call recording, live transcription, real-time translation, and sentiment analysis pipeline.
-- **Digital Channels & Messaging**:
-  - Web Chat: Embedding responsive chat widgets, proactive chat triggers, and pre-chat surveys.
-  - Live Chat SDK & Mobile SDK: Integrating custom chat interfaces into native iOS/Android applications.
-  - Asynchronous Channels: SMS, Apple Messages for Business, WhatsApp, and custom messaging endpoints via Azure Event Grid and messaging APIs.
-  - Proactive Outbound Campaigns: Automated dialers (Predictive, Power, Preview), trigger-based customer notifications, and outbound dashboard tracking.
-  - Workforce Management (WFM): Scheduling, shift allocation, demand forecasting, and third-party WFM connectors.
+---
 
-### 3. Autonomous Agents, Copilot Studio & Generative AI
-Exam AB-250 focuses heavily on intelligent automation:
-- **Copilot Studio Integration**:
-  - Generative AI IVR vs Classic Rule-Based Dialogs.
-  - Speech Synthesis (TTS) and Natural Language Understanding (NLU) fine-tuning for voice bots.
-  - Handling Dual-Tone Multi-Frequency (DTMF) inputs and speech barge-in.
-  - SIP Header Transfers: Seamlessly handing off voice calls from self-service bots to human queues with context metadata preservation.
-  - Multilingual voice and text agents with real-time language detection.
-- **Agent Assist & Generative Copilot**:
-  - Live Conversation Summaries: Real-time generation of multi-turn customer interaction summaries.
-  - "Ask a Question" feature: Grounding Copilot responses in internal SharePoint, Dataverse knowledge bases, and public URLs.
-  - Extending Copilot with Prompt Plugins and Power Platform Connectors.
-  - Autonomous System Agents: The *Customer Knowledge Management Agent*, *Health Agent*, and *Real-Time Speech Agent*.
+## 📝 10 Exam Demo Practice Questions & Answers
 
-### 4. Unified Routing, Workstreams & AI-Enabled Routing
-The Unified Routing engine processes incoming work items in two distinct phases:
+### Question 1 (Domain 2: Voice Channel & IVR Handoff)
+**Scenario:** A financial services company implements Dynamics 365 Contact Center with Microsoft Copilot Studio for voice self-service. When an authenticated customer requests to speak with a human agent, the customer's account number and verified security token must be passed to the human representative without requiring re-authentication. What should you configure?
+- A) Configure Live Chat SDK variables and trigger a Webhook.
+- B) Configure SIP header data passing in Copilot Studio and map context variables in the voice workstream.
+- C) Create a Dataverse custom table and store caller credentials during the call.
+- D) Configure an outbound calling profile with DTMF override.
+- **Correct Answer:** **B**
+- **Explanation:** In Dynamics 365 Contact Center voice channels, Copilot Studio passes conversational context and caller variables to human agents using SIP user-to-user headers. These are extracted and mapped into workstream context variables within Unified Routing.
 
-```mermaid
-flowchart TD
-    A[Incoming Work Item / Voice / Chat] --> B[Intake & Workstream Routing]
-    B --> C[Stage 1: Work Classification]
-    C --> D1[Logical Condition Rules]
-    C --> D2[Machine Learning Model - Skill Determination]
-    C --> D3[AI Intent Identification]
-    D1 & D2 & D3 --> E[Stage 2: Prioritization & Assignment]
-    E --> F1[Queue Assignment Rules]
-    F1 --> G[Agent Assignment Engine]
-    G --> H1[Highest Capacity]
-    G --> H2[Round Robin]
-    G --> H3[Preferred Agent Routing]
-    G --> H4[Skill-Based Exact / Nearest Match]
-    G --> I[Agent Acceptance or Overflow / Fallback]
-```
+---
 
-- **Stage 1 - Work Classification**:
-  - Attaching context variables, customer identification records, and priority flags.
-  - AI-enabled skills prediction: Extracting keywords and sentiment to attach technical skills dynamically.
-  - Intent-based classification: Mapping natural language customer queries to predefined intent taxonomies.
-- **Stage 2 - Route-to-Queue & Assignment Methods**:
-  - Prioritization Rules: Determining work item processing order based on SLA deadlines or customer VIP tier.
-  - Assignment algorithms: *Highest Capacity*, *Round Robin*, *Preferred Representative*, and *Skills-Based Routing* (Exact Match vs Closest Match).
-  - Overflow Management: Handling queue limits, max wait times, and out-of-hours routing with automated fallback.
-  - Conversation Diagnostics: Tracing individual routing execution paths to debug classification logic.
+### Question 2 (Domain 4: Unified Routing & Work Distribution)
+**Scenario:** An enterprise needs to route incoming customer support chats. In peak hours, if an exact skills match is not available within 45 seconds, the system should assign the chat to an agent with the closest matching skill set to avoid excessive customer abandonment. Which assignment method should you configure?
+- A) Round Robin Assignment
+- B) Skills-Based Routing with Exact Match
+- C) Skills-Based Routing with Closest Match (Relaxation Rule)
+- D) Highest Available Capacity without skills
+- **Correct Answer:** **C**
+- **Explanation:** Skills-Based Routing with Closest Match applies skill relaxation logic, progressively dropping optional skill requirements after defined wait time thresholds to ensure timely agent connection.
 
-### 5. Representative Productivity, Workspace & Extensibility
-Empowering contact center agents with streamlined UI and automation:
-- **App Profile Manager & Workspace Configuration**:
-  - Designing multi-session Experience Profiles, application tab templates, and custom Agent Inbox views.
-  - Notification Templates: Configuring sound alerts, visual banners, and desktop push notifications.
-- **Productivity Tools & Automation**:
-  - Smart Assist Bots: Recommending relevant knowledge articles and next-best actions.
-  - Agent Scripts: Step-by-step guidance scripts with dynamic data insertion using **Slugs** (e.g., `{customer_name}`, `{case_id}`).
-  - Macros: Automating multi-step repetitive tasks (e.g., auto-resolving cases, sending emails, updating Dataverse records) with a single click.
-  - Microsoft Teams Swarming: Collaborative problem solving embedded directly into agent sessions.
-  - JavaScript Extensibility: Utilizing the Omnichannel JavaScript API (`Microsoft.Omnichannel.*`) and App Profile Manager API to build custom web resources.
+---
 
-### 6. Supervisor Experience, Quality Evaluation & Telemetry Analytics
-Providing management with real-time operational insights and AI-driven quality governance:
-- **Supervisor Experience**:
-  - Omnichannel Ongoing Conversations Dashboard: Monitoring live sessions, agent status, and customer sentiment.
-  - Supervisor Actions: Monitor, Join, Whisper, and Force-Transfer live interactions.
-  - Quality Evaluation Agent: Automatically scoring conversations against quality rubrics, compliance criteria, and empathy metrics.
-- **Reporting & Business Intelligence**:
-  - Out-of-the-box Power BI Analytics: Historical reports (Conversations, Agents, Queues, Bot Performance) and Real-Time dashboards.
-  - Customizing KPIs: Editing embedded Power BI reports directly in the workspace or authoring custom `.pbix` templates in Power BI Desktop.
-  - Azure Application Insights: Ingesting raw telemetry, conversation diagnostics, latency metrics, and API call logs for enterprise monitoring.
+### Question 3 (Domain 5: Representative Experience & App Profile Manager)
+**Scenario:** You need to configure the workspace for Tier 2 Technical Support agents so that whenever a chat session is accepted, the Customer Summary form opens automatically alongside an internal SharePoint Knowledge Portal tab. Which configuration entity controls this behavior?
+- A) Notification Template
+- B) Session Template and Application Tab Templates
+- C) Workstream Classification Rules
+- D) Unified Routing Prioritization Rule
+- **Correct Answer:** **B**
+- **Explanation:** Session Templates within the App Profile Manager define the anchor tab and default application tabs (configured via Application Tab Templates) that open automatically upon session acceptance.
+
+---
+
+### Question 4 (Domain 3: AI Capabilities & Copilot Grounding)
+**Scenario:** You are configuring Copilot in Dynamics 365 Contact Center to enable the "Ask a Question" feature for agents. You want Copilot to generate answers grounded in verified enterprise policy documents stored in a secure SharePoint Online folder. What should you configure?
+- A) Export policy documents into Dataverse Notes records.
+- B) Configure SharePoint as a Knowledge Source in Copilot settings with Azure AD authentication.
+- C) Create an Azure Logic App to parse PDFs and push plain text into chat widgets.
+- D) Build a custom macro that opens SharePoint in a browser window.
+- **Correct Answer:** **B**
+- **Explanation:** Copilot in Dynamics 365 supports native Knowledge Sources including SharePoint Online. Grounding allows Copilot to perform semantic retrieval with security trimming based on the agent's Azure AD permissions.
+
+---
+
+### Question 5 (Domain 1: Deployment & Capacity Management)
+**Scenario:** A contact center representative handles both voice and live chat. You must ensure that when an agent is on an active voice call (which consumes 100 capacity units), they receive no chat requests (which consume 30 units each), even if their base capacity is 100. How should you configure capacity profiles?
+- A) Set reset frequency to End of Day on the chat profile.
+- B) Assign a blocking capacity profile with 100 units to the voice channel workstream.
+- C) Create separate user logins for voice and chat.
+- D) Enable manual presence override for representative statuses.
+- **Correct Answer:** **B**
+- **Explanation:** When a workstream is configured with a blocking capacity profile of 100 units, assigning a voice call consumes all 100 units, blocking assignment of any other work items until the session ends.
+
+---
+
+### Question 6 (Domain 2: Digital Channels & Live Chat SDK)
+**Scenario:** A company wants to embed a customized live chat widget into their native iOS mobile app and authenticate users using their existing mobile login credentials. Which solution should you implement?
+- A) Standard web iframe widget embedded in a mobile webview.
+- B) Messaging SDK for Dynamics 365 Contact Center with OAuth 2.0 / OpenID Connect authentication provider.
+- C) WhatsApp Business Channel with SMS fallback.
+- D) Power Pages Portal embedded within the application.
+- **Correct Answer:** **B**
+- **Explanation:** The Messaging SDK for Dynamics 365 Contact Center provides native iOS/Android libraries supporting authenticated sessions via OpenID Connect tokens.
+
+---
+
+### Question 7 (Domain 6: Analytics & Supervisor Experience)
+**Scenario:** A contact center supervisor notices an ongoing voice conversation where customer sentiment has dropped to 'Very Negative'. The supervisor needs to provide immediate advice to the agent without the customer hearing the guidance. Which supervisor action should be used?
+- A) Monitor
+- B) Whisper
+- C) Join
+- D) Force Transfer
+- **Correct Answer:** **B**
+- **Explanation:** The 'Whisper' feature allows supervisors to inject one-way audio or private chat messages directly to the representative without the customer being aware of the supervisor's participation.
+
+---
+
+### Question 8 (Domain 3: Copilot Studio Voice Triggers & DTMF)
+**Scenario:** An IVR voice agent in Copilot Studio asks callers for a 6-digit PIN code. In noisy environments, speech recognition occasionally misinterprets spoken digits. How should you optimize the voice bot?
+- A) Increase speech timeout to 60 seconds.
+- B) Enable Dual-Tone Multi-Frequency (DTMF) keypad input on the Question node.
+- C) Force callers to transfer to human representatives.
+- D) Use a Power Automate flow to guess the PIN.
+- **Correct Answer:** **B**
+- **Explanation:** Enabling DTMF on Copilot Studio voice nodes allows callers to enter numbers using telephone keypads, ensuring accurate digit capture in noisy environments.
+
+---
+
+### Question 9 (Domain 5: Agent Productivity & Macros)
+**Scenario:** You need to automate the case creation process so that when an agent clicks a button in the Productivity pane, the system automatically creates a Case record, populates the Customer ID from the active session context, and links the ongoing conversation. Which tool should you configure?
+- A) Power BI Embedded Report
+- B) Productivity Macro using Omnichannel Macro Connector actions and Slugs
+- C) Dataverse Classic Workflow
+- D) Agent Notification Template
+- **Correct Answer:** **B**
+- **Explanation:** Macros in Dynamics 365 Contact Center execute sequential automated actions. Contextual data from the active session is passed dynamically into macro fields using slugs (e.g., `{customer_id}`).
+
+---
+
+### Question 10 (Domain 6: Telemetry & Application Insights)
+**Scenario:** An enterprise needs to analyze detailed routing execution paths, SDK latency, and WebRTC call quality metrics for all Dynamics 365 Contact Center interactions across global regions. Which service should you configure?
+- A) Dataverse Audit Logs
+- B) Azure Application Insights with Conversation Diagnostics integration
+- C) Excel export from Agent Inbox
+- D) Power Apps Monitor
+- **Correct Answer:** **B**
+- **Explanation:** Dynamics 365 Contact Center integrates directly with Azure Application Insights to stream high-fidelity telemetry, conversation diagnostics, and WebRTC media metrics for advanced querying via KQL.
+
+---
+
+## 💬 Community Discussion & Study Group
+
+Have questions about Exam AB-250 topics, architecture designs, or beta exam experiences?
+- 💬 **Ask a question or start a topic:** [GitHub Discussions](https://github.com/Jason-smithy/AB-250/discussions)
+- 🐛 **Report inaccuracies or suggest updates:** [GitHub Issues](https://github.com/Jason-smithy/AB-250/issues)
+- 🤝 **Contribution Guide:** Feel free to open a Pull Request with updated notes, architectural diagrams, or study materials!
 
 ---
 
 ## 📂 Detailed Topic Documentation Index
-
-For detailed architectural diagrams, step-by-step configuration walkthroughs, and practice scenarios, refer to the individual domain guides:
 
 - 📘 [01. Deploy Dynamics 365 Contact Center](./docs/01-deploy-dynamics-365-contact-center.md)
 - 📘 [02. Implement Channels (Voice, Chat, Digital, WFM)](./docs/02-implement-channels.md)
